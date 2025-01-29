@@ -170,7 +170,7 @@ An automated translation by an LLM can be a useful starting point,
 but it is essential that a real human review and approve any translations
 before your application is released to a general audience.
 Failure to do so runs the rusk of presenting users with
-confusing (or potentially offensive!) – mistranslations of your app.
+confusing (or potentially offensive!) mistranslations of your app.
 
 1. Create a branch of your project for each individual language to be translated
 2. Run `translatrix` on each `Localizable.xcstrings` for the language
@@ -202,6 +202,7 @@ with your changes.
 Other projects that do something similar to Translatrix, but with remote (paid) LLMs, are:
 
  - https://github.com/pmacro/AITranslate
+ - https://github.com/borrrrring/xcstrings
  
 ## License
 
