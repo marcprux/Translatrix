@@ -167,7 +167,10 @@ git diff
 
 There is no substitute for human translators.
 An automated translation by an LLM can be a useful starting point,
-but it is essential that a real human review and approve any translations.
+but it is essential that a real human review and approve any translations
+before your application is released to a general audience.
+Failure to do so runs the rusk of presenting users with
+confusing (or potentially offensive!) – mistranslations of your app.
 
 1. Create a branch of your project for each individual language to be translated
 2. Run `translatrix` on each `Localizable.xcstrings` for the language
@@ -179,7 +182,7 @@ but it is essential that a real human review and approve any translations.
 
 - Pluralization catalogs are not yet supported 
 - Other localizable files like `Info.plist` are not yet handled
-- The less popular the language, the poorer the translation will be. E.g., French is pretty good, but Kannada tends to be quite terrible. YMMV depending on the language model you are using.
+- The less popular the language, the poorer the translation will be. E.g., French is pretty good, but Kannada tends to be quite terrible. YMMV depending on the language model you are using. Having detailed comments helps a lot.
 
 ## Reporting bugs
 
