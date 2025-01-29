@@ -22,7 +22,7 @@ mint install marcprux/translatrix
 6. Run `translatrix --model codellama:34b-code --lang fr ~/Desktop/SampleApp/SampleApp/Localizable.xcstrings`
 7. Switch your device/simulator language to French and re-launch the app, and observe: "Bonjour, le monde!"
 8. Any time you add a localizable string to your app, re-run translatrix to update the xcstrings with new translations
-9. Strings will be added with the "Needs Review" state in order to facilitate human approval of translations
+9. Strings will be added with the "Needs Review" state in order to facilitate [human approval](#recommended-workflow) of translations
 
 
 ### Details
@@ -144,7 +144,7 @@ French (fr): Bonjour, Monde!
 git diff
 ```
 
-## Recommended Git Workflow
+## Recommended Workflow
 
 There is no substitute for human translators.
 An automated translation by an LLM can be a useful starting point,
@@ -182,5 +182,5 @@ Other projects that do something similar to Translatrix, but with remote (paid) 
  
 ## License
 
-[GPL v3](Translatrix?tab=readme-ov-file#GPL-3.0-1-ov-file)
+GPL v3
 
