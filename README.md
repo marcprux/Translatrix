@@ -144,6 +144,12 @@ French (fr): Bonjour, Monde!
 git diff
 ```
 
+## Alternatives
+
+Other projects that do something similar to Translatrix, but with remote (paid) LLMs, are:
+
+ - https://github.com/pmacro/AITranslate
+ 
 
 ## License
 
