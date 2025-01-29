@@ -1,6 +1,11 @@
 # Translatrix
 
-Translatrix is tool to help translate Localizable.xcstrings files using a local LLM
+Translatrix is tool to help translate `Localizable.xcstrings` files using a local LLM running under Ollama.
+It assists in creating and mantaining translation strings catalogs and keeping them
+up-to-date as an app evolves.
+
+It pairs well with [Skip](https://skip.tools) to help
+create universal iOS and Android apps to reach all devices and languages.
 
 ![Screenshot of Xcode with translation](screenshot.png?raw=true "Translatrix Localizable.xcstrings")
 
