@@ -179,6 +179,7 @@ but it is essential that a real human review and approve any translations.
 
 - Pluralization catalogs are not yet supported 
 - Other localizable files like `Info.plist` are not yet handled
+- The less popular the language, the poorer the translation will be. E.g., French is pretty good, but Kannada tends to be quite terrible. YMMV depending on the language model you are using.
 
 ## Reporting bugs
 
