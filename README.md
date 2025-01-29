@@ -144,6 +144,18 @@ French (fr): Bonjour, Monde!
 git diff
 ```
 
+## Recommended Git Workflow
+
+There is no substitute for human translators.
+An automated translation by an LLM can be a useful starting point,
+but it is essential that a real human review and approve any translations.
+
+1. Create a branch of your project for each individual language to be translated
+2. Run `translatrix` on each `Localizable.xcstrings` for the language
+3. Create a Pull/Merge Request with the automatic translation
+4. Have a **human** translator review and approve the changes, changing the "needs_review" state to "translated"
+5. Merge the Pull/Merge Request
+
 ## Limitations
 
 - Pluralization catalogs are not yet supported 
