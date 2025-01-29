@@ -20,14 +20,14 @@ mint install marcprux/translatrix
 You can alternatively check out this repository and run with:
 
 ```
-swift run --package-path /path/to/repository/Translatrix Translatrix <arguments>
+swift run --package-path /path/to/repository/Translatrix translatrix <arguments>
 ```
 
 You could create a shell script to help with this, like `translatrix.sh`:
 
 ```bash
 #!/bin/bash
-swift run --package-path /opt/src/github/marcprux/Translatrix Translatrix "${@}"
+swift run --package-path /opt/src/github/marcprux/Translatrix translatrix "${@}"
 ```
 
 
