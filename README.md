@@ -15,7 +15,7 @@ mint install marcprux/translatrix
 ## Quickstart
 
 1. Install [ollama](https://ollama.com) with `brew install ollama` then launch `ollama.app`
-2. Install and run any [LLM model](https://github.com/ollama/ollama#model-library), like `ollama run [codellama:34b](https://ollama.com/library/codellama:34b)`
+2. Install and run any [LLM model](https://github.com/ollama/ollama#model-library), like `ollama run codellama:34b`
 3. Launch Xcode and create a new "Multiplatform App" (e.g., named "SampleApp") on your Desktop
 4. Run `File`/`New`/`File from Template` and select `String Catalog` and name it `Localizable.xcstrings`
 5. Build and run the app and observe: "Hello, world!"
@@ -144,13 +144,31 @@ French (fr): Bonjour, Monde!
 git diff
 ```
 
+## Limitations
+
+- Pluralization catalogs are not yet supported 
+- Other localizable files like `Info.plist` are not yet handled
+
+## Reporting bugs
+
+Please open an
+[Issue](https://github.com/marcprux/Translatrix/issues).
+
+## Contributing
+
+Please
+[Fork](https://github.com/marcprux/Translatrix/fork)
+the project and then file a
+[Pull Request](https://github.com/marcprux/Translatrix/pulls)
+with your changes.
+
 ## Alternatives
 
 Other projects that do something similar to Translatrix, but with remote (paid) LLMs, are:
 
  - https://github.com/pmacro/AITranslate
  
-
 ## License
 
-GPL v3
+[GPL v3](Translatrix?tab=readme-ov-file#GPL-3.0-1-ov-file)
+
